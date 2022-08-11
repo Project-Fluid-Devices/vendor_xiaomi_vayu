@@ -271,7 +271,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libmdmdetect \
-    libmmosal \
+    libmmosal_vendor \
     libqmi \
     libqmi_cci \
     libqmi_client_helper \
@@ -376,7 +376,7 @@ PRODUCT_PACKAGES += \
     libmisoundfx \
     libshoebox \
     vendor.qti.hardware.audiohalext@1.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     libxlog \
     com.qti.sensor.hi259_vayu \
@@ -446,7 +446,7 @@ PRODUCT_PACKAGES += \
     com.xiaomi.node.mifragment \
     com.xiaomi.node.misegment \
     libdepthmapwrapper \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
@@ -679,7 +679,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
@@ -713,10 +713,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@1.1 \
     vendor.qti.ims.rcsconfig@2.0 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.xiaomi.hardware.fx.tunnel@1.0 \
-    libmmosal \
+    libmmosal_system_ext \
     libmmparser_lite \
     libmmrtpdecoder \
     libmmrtpencoder \
@@ -735,8 +735,8 @@ PRODUCT_PACKAGES += \
     libwfdavenhancements \
     libwfdmmsrc_system \
     libwfdservice \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
-    com.qualcomm.qti.dpm.api@1.0 \
+    vendor.qti.hardware.wifidisplaysession@1.0_system_ext \
+    com.qualcomm.qti.dpm.api@1.0_system_ext \
     fm_helium \
     lib-imsvideocodec \
     lib-imsvt \
@@ -753,8 +753,8 @@ PRODUCT_PACKAGES += \
     libwfdclient \
     libwfdnative \
     vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.fm@1.0 \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.hardware.fm@1.0_system_ext \
+    vendor.qti.imsrtpservice@3.0_system_ext \
     CACertService \
     CneApp \
     IWlanService \
